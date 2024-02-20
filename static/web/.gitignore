@@ -1,0 +1,9 @@
+/file
+*
+!.gitignore
+!default.svg
+!default.png
+!appstore.png
+!gplay.png
+!tree.svg
+!logo.png

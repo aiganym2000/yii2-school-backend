@@ -1,0 +1,8 @@
+!.gitignore
+vendor/
+composer.lock
+.idea/
+.env
+composer.phar
+docker/data/*
+.DS_Store

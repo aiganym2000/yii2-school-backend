@@ -1,0 +1,45 @@
+<?php
+return [
+    'adminEmail' => 'admin@example.com',
+    'supportEmail' => 'support@example.com',
+    'infoEmail' => $_SERVER['INFO_EMAIL'],
+    'user.passwordResetTokenExpire' => 3600,
+    'staticDomain' => $_SERVER['STATIC_DOMAIN'],
+    'robotEmail' => $_SERVER['ROBOT_EMAIL'],
+    'robotName' => $_SERVER['ROBOT_NAME'],
+    'jwt' => [
+        'issuer' => $_SERVER['ISSUER'],
+        'audience' => $_SERVER['AUDIENCE'],
+        'id' => $_SERVER['JWT_ID'],
+        'expire' => 1200,
+    ],
+    'pay' => [
+        'crypt' => [
+            'api_url' => $_SERVER['CRYPT_URL'],
+            'shop_id' => $_SERVER['CRYPT_SHOP_ID'],
+            'secret_key' => $_SERVER['CRYPT_SECRET_KEY'],
+            'api_key' => $_SERVER['CRYPT_API_KEY'],
+        ],
+        'cloud-payments' => [
+            'url' => $_SERVER['CP_URL'],
+            'login' => $_SERVER['CP_LOGIN'],
+            'password' => $_SERVER['CP_PASSWORD'],
+            'success_url' => $_SERVER['CP_SUCCESS_URL'],
+            'cancel_url' => $_SERVER['CP_CANCEL_URL'],
+            'inn' => $_SERVER['CP_INN'],
+        ],
+        'stripe' => [
+            'public_key' => $_SERVER['STRIPE_KEY'],
+            'api_key' => $_SERVER['STRIPE_API_KEY'],
+            'api_url' => $_SERVER['STRIPE_URL'],
+            'success_url' => $_SERVER['STRIPE_SUCCESS_URL'],
+            'cancel_url' => $_SERVER['STRIPE_CANCEL_URL'],
+        ],
+    ],
+    'frontDomain' => $_SERVER['FRONT_DOMAIN'],
+    'passwordResetAddress' => $_SERVER['PASSWORD_RESET_ADDRESS'],
+    'registrationAddress' => $_SERVER['REGISTRATION_ADDRESS'],
+    'appstore_url' => $_SERVER['APPSTORE_URL'],
+    'gplay_url' => $_SERVER['GOOGLE_PLAY_URL'],
+    'img_width' => 200,
+];

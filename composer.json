@@ -1,0 +1,75 @@
+{
+  "name": "yiisoft/yii2-app-advanced",
+  "description": "Yii 2 Advanced Project Template",
+  "keywords": [
+    "yii2",
+    "framework",
+    "advanced",
+    "project template"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5",
+    "yiisoft/yii2": "~2.0.6",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+    "zelenin/yii2-slug-behavior": "~1.5.1",
+    "kartik-v/yii2-widget-select2": "dev-master",
+    "kartik-v/yii2-date-range": "1.6.8",
+    "kartik-v/yii2-widgets": "v3.4.0",
+    "kartik-v/yii2-widget-depdrop": "dev-master",
+    "kartik-v/yii2-widget-activeform": "dev-master",
+    "kartik-v/yii2-icons": "@dev",
+    "mihaildev/yii2-ckeditor": "^1.0",
+    "2amigos/yii2-tinymce-widget": "~1.1",
+    "alexandernst/yii2-device-detect": "0.0.12",
+    "sizeg/yii2-jwt": "^2.0",
+    "vova07/yii2-fileapi-widget": "*",
+    "himiklab/yii2-sortable-grid-view-widget": "*",
+    "james-heinrich/getid3": "*",
+    "ext-json": "*",
+    "ext-intl": "*",
+    "ext-curl": "*",
+    "stripe/stripe-php": "^9.9",
+    "yiisoft/yii2-httpclient": "*",
+    "yiisoft/yii2-imagine": "^2.3",
+    "kartik-v/yii2-field-range": "*",
+    "2amigos/yii2-chartjs-widget": "~2.0",
+    "phpoffice/phpexcel": "1.8.1"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "~2.0.0",
+    "yiisoft/yii2-gii": "~2.0.0",
+    "yiisoft/yii2-faker": "~2.0.0",
+    "codeception/base": "^2.2.3",
+    "codeception/verify": "~0.3.1",
+    "firebase/php-jwt": "^5.0",
+    "alexandernst/yii2-device-detect": "0.0.12",
+    "paragraph1/php-fcm": "^0.7.0"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
