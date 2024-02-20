@@ -65,9 +65,7 @@ return [
         ],
         'fcm' => [
             'class' => 'understeam\fcm\Client',
-//            'apiKey' => 'AAAA4NFmX6Q:APA91bHovYUriwb-X78Kav4A6NvjyLL2baFAZTd8JBgIE1nGj1zR2RsM6BmdQ4tK2iQUDE1o7VdsxPSUxaiZ_7DdJPIkrcy8qg1TFN8s0bMoNDwuIWjPYCCP7vG165551jBSNdr9D6gb',
             'apiKey' => $_SERVER['FCM'],
-//            'apiKey' => 'AAAA4NFmX6Q:APA91bE_FP5-Pu0ca1hnnYLPWBFMhlAOP2FS8gD7VKwzJ6zE3qy4L3coCvunQiLYIwoeG1ALItcCQKx2ySrmJNu4_8IvhDXvo7qWbwuT9smkmhArpoDq_etlAT0JyYMIMGx-LEaBXkU9',
         ],
         'fcmAdmin' => [
             'class' => 'understeam\fcm\Client',
