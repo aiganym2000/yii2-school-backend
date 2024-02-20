@@ -8,8 +8,8 @@ class SmsHelper
     {
         // constants
         // !!! Edit these contants after you receive an account from SMS Traffic !!!
-        $smstraffic_login = "pillikansms";
-        $smstraffic_password = "twOyXlgcNAXzm9t";
+        $smstraffic_login = '';
+        $smstraffic_password = ;
         $max_parts = 1; // set to 2 or more if you want messages to be split into several SMS automatically
 
         $host = "api.smstraffic.ru";
